@@ -459,6 +459,7 @@ progress {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  text-align: justify;
 }
 
 .display-1 {
@@ -11054,3 +11055,39 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+/* css Login */
+.masthead_login {
+  padding-top: calc(2rem + 1px);
+  padding-bottom: 2rem;
+}
+.masthead_login .masthead_login-heading {
+  font-size: 2.75rem;
+  line-height: 2.75rem;
+}
+.masthead_login .masthead_login-subheading {
+  font-size: 1.25rem;
+}
+
+@media (min-width: 992px){ 
+  .masthead_login {
+    padding-top: calc(2rem + 10px);
+  }
+  .masthead_login .masthead_login-heading {
+    font-size: 2rem;
+    line-height: 3.5rem;
+  }
+  .masthead_login .masthead_login-subheading {
+    font-size: 1rem;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .alto {   
+      height: 100vh;
+  }
+
+}
+
+
